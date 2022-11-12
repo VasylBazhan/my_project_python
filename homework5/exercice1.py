@@ -7,6 +7,11 @@ if (len(a)== 2):
     s2 = s2[::-1]
     print(s1.capitalize(), s2.capitalize())
 else:
-    print('pls input two words')
-
-
+    (len(a)== 1)
+    a1 = input('pls input two words: ')
+    b = a1.split(" ")
+    s1 = b[0]
+    s2 = b[1]
+    s1 = s1[::-1]
+    s2 = s2[::-1]
+    print(s1.capitalize(), s2.capitalize())
